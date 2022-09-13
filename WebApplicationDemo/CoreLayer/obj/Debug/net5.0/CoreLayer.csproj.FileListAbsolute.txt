@@ -1,0 +1,11 @@
+C:\Users\Emre\OneDrive\Masaüstü\WebApplicationDemo\CoreLayer\bin\Debug\net5.0\CoreLayer.deps.json
+C:\Users\Emre\OneDrive\Masaüstü\WebApplicationDemo\CoreLayer\bin\Debug\net5.0\CoreLayer.dll
+C:\Users\Emre\OneDrive\Masaüstü\WebApplicationDemo\CoreLayer\bin\Debug\net5.0\ref\CoreLayer.dll
+C:\Users\Emre\OneDrive\Masaüstü\WebApplicationDemo\CoreLayer\bin\Debug\net5.0\CoreLayer.pdb
+C:\Users\Emre\OneDrive\Masaüstü\WebApplicationDemo\CoreLayer\obj\Debug\net5.0\CoreLayer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Emre\OneDrive\Masaüstü\WebApplicationDemo\CoreLayer\obj\Debug\net5.0\CoreLayer.AssemblyInfoInputs.cache
+C:\Users\Emre\OneDrive\Masaüstü\WebApplicationDemo\CoreLayer\obj\Debug\net5.0\CoreLayer.AssemblyInfo.cs
+C:\Users\Emre\OneDrive\Masaüstü\WebApplicationDemo\CoreLayer\obj\Debug\net5.0\CoreLayer.csproj.CoreCompileInputs.cache
+C:\Users\Emre\OneDrive\Masaüstü\WebApplicationDemo\CoreLayer\obj\Debug\net5.0\CoreLayer.dll
+C:\Users\Emre\OneDrive\Masaüstü\WebApplicationDemo\CoreLayer\obj\Debug\net5.0\ref\CoreLayer.dll
+C:\Users\Emre\OneDrive\Masaüstü\WebApplicationDemo\CoreLayer\obj\Debug\net5.0\CoreLayer.pdb
