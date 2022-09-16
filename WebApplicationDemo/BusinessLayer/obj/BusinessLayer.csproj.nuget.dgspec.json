@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Emre\\OneDrive\\Masaüstü\\WebApplicationDemo\\BusinessLayer\\BusinessLayer.csproj": {}
+    "D:\\GitHub\\BlogWebApp\\WebApplicationDemo\\BusinessLayer\\BusinessLayer.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Emre\\OneDrive\\Masaüstü\\WebApplicationDemo\\BusinessLayer\\BusinessLayer.csproj": {
+    "D:\\GitHub\\BlogWebApp\\WebApplicationDemo\\BusinessLayer\\BusinessLayer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Emre\\OneDrive\\Masaüstü\\WebApplicationDemo\\BusinessLayer\\BusinessLayer.csproj",
+        "projectUniqueName": "D:\\GitHub\\BlogWebApp\\WebApplicationDemo\\BusinessLayer\\BusinessLayer.csproj",
         "projectName": "BusinessLayer",
-        "projectPath": "C:\\Users\\Emre\\OneDrive\\Masaüstü\\WebApplicationDemo\\BusinessLayer\\BusinessLayer.csproj",
+        "projectPath": "D:\\GitHub\\BlogWebApp\\WebApplicationDemo\\BusinessLayer\\BusinessLayer.csproj",
         "packagesPath": "C:\\Users\\Emre\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Emre\\OneDrive\\Masaüstü\\WebApplicationDemo\\BusinessLayer\\obj\\",
+        "outputPath": "D:\\GitHub\\BlogWebApp\\WebApplicationDemo\\BusinessLayer\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -35,11 +35,11 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\Users\\Emre\\OneDrive\\Masaüstü\\WebApplicationDemo\\DataAccesLayer\\DataAccesLayer.csproj": {
-                "projectPath": "C:\\Users\\Emre\\OneDrive\\Masaüstü\\WebApplicationDemo\\DataAccesLayer\\DataAccesLayer.csproj"
+              "D:\\GitHub\\BlogWebApp\\WebApplicationDemo\\DataAccesLayer\\DataAccesLayer.csproj": {
+                "projectPath": "D:\\GitHub\\BlogWebApp\\WebApplicationDemo\\DataAccesLayer\\DataAccesLayer.csproj"
               },
-              "C:\\Users\\Emre\\OneDrive\\Masaüstü\\WebApplicationDemo\\EntityLayer\\EntityLayer.csproj": {
-                "projectPath": "C:\\Users\\Emre\\OneDrive\\Masaüstü\\WebApplicationDemo\\EntityLayer\\EntityLayer.csproj"
+              "D:\\GitHub\\BlogWebApp\\WebApplicationDemo\\EntityLayer\\EntityLayer.csproj": {
+                "projectPath": "D:\\GitHub\\BlogWebApp\\WebApplicationDemo\\EntityLayer\\EntityLayer.csproj"
               }
             }
           }
@@ -74,18 +74,18 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.411\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.412\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Emre\\OneDrive\\Masaüstü\\WebApplicationDemo\\DataAccesLayer\\DataAccesLayer.csproj": {
+    "D:\\GitHub\\BlogWebApp\\WebApplicationDemo\\DataAccesLayer\\DataAccesLayer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Emre\\OneDrive\\Masaüstü\\WebApplicationDemo\\DataAccesLayer\\DataAccesLayer.csproj",
+        "projectUniqueName": "D:\\GitHub\\BlogWebApp\\WebApplicationDemo\\DataAccesLayer\\DataAccesLayer.csproj",
         "projectName": "DataAccesLayer",
-        "projectPath": "C:\\Users\\Emre\\OneDrive\\Masaüstü\\WebApplicationDemo\\DataAccesLayer\\DataAccesLayer.csproj",
+        "projectPath": "D:\\GitHub\\BlogWebApp\\WebApplicationDemo\\DataAccesLayer\\DataAccesLayer.csproj",
         "packagesPath": "C:\\Users\\Emre\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Emre\\OneDrive\\Masaüstü\\WebApplicationDemo\\DataAccesLayer\\obj\\",
+        "outputPath": "D:\\GitHub\\BlogWebApp\\WebApplicationDemo\\DataAccesLayer\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -109,8 +109,8 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\Users\\Emre\\OneDrive\\Masaüstü\\WebApplicationDemo\\EntityLayer\\EntityLayer.csproj": {
-                "projectPath": "C:\\Users\\Emre\\OneDrive\\Masaüstü\\WebApplicationDemo\\EntityLayer\\EntityLayer.csproj"
+              "D:\\GitHub\\BlogWebApp\\WebApplicationDemo\\EntityLayer\\EntityLayer.csproj": {
+                "projectPath": "D:\\GitHub\\BlogWebApp\\WebApplicationDemo\\EntityLayer\\EntityLayer.csproj"
               }
             }
           }
@@ -161,18 +161,18 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.411\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.412\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Emre\\OneDrive\\Masaüstü\\WebApplicationDemo\\EntityLayer\\EntityLayer.csproj": {
+    "D:\\GitHub\\BlogWebApp\\WebApplicationDemo\\EntityLayer\\EntityLayer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Emre\\OneDrive\\Masaüstü\\WebApplicationDemo\\EntityLayer\\EntityLayer.csproj",
+        "projectUniqueName": "D:\\GitHub\\BlogWebApp\\WebApplicationDemo\\EntityLayer\\EntityLayer.csproj",
         "projectName": "EntityLayer",
-        "projectPath": "C:\\Users\\Emre\\OneDrive\\Masaüstü\\WebApplicationDemo\\EntityLayer\\EntityLayer.csproj",
+        "projectPath": "D:\\GitHub\\BlogWebApp\\WebApplicationDemo\\EntityLayer\\EntityLayer.csproj",
         "packagesPath": "C:\\Users\\Emre\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Emre\\OneDrive\\Masaüstü\\WebApplicationDemo\\EntityLayer\\obj\\",
+        "outputPath": "D:\\GitHub\\BlogWebApp\\WebApplicationDemo\\EntityLayer\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -222,7 +222,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.411\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.412\\RuntimeIdentifierGraph.json"
         }
       }
     }

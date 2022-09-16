@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "zHoLzRb74MdcrPV+zOtYaVofYn7zuo+eBlX/EAaKheNxfSct+OI71dFt/1oqYTi8ccpTRx1mjZ+Hk7LM+kAkkw==",
+  "dgSpecHash": "z0kzRxQ82QE7BIG4EUvwdx8i+q/UwXOj8Dlp7r1I1/WIzqXATySo9YYEDLOuVJdQ3nV43FxQk0r/QGFLiCe6ug==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Emre\\OneDrive\\Masaüstü\\WebApplicationDemo\\WebApplicationDemo\\WebApplicationDemo.csproj",
+  "projectFilePath": "D:\\GitHub\\BlogWebApp\\WebApplicationDemo\\WebApplicationDemo\\WebApplicationDemo.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Emre\\.nuget\\packages\\closedxml\\0.95.4\\closedxml.0.95.4.nupkg.sha512",
     "C:\\Users\\Emre\\.nuget\\packages\\documentformat.openxml\\2.7.2\\documentformat.openxml.2.7.2.nupkg.sha512",

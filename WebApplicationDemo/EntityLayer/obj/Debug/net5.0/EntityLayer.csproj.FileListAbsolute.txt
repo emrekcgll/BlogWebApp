@@ -10,3 +10,15 @@ C:\Users\Emre\OneDrive\Masaüstü\WebApplicationDemo\EntityLayer\obj\Debug\net5.
 C:\Users\Emre\OneDrive\Masaüstü\WebApplicationDemo\EntityLayer\obj\Debug\net5.0\ref\EntityLayer.dll
 C:\Users\Emre\OneDrive\Masaüstü\WebApplicationDemo\EntityLayer\obj\Debug\net5.0\EntityLayer.pdb
 C:\Users\Emre\OneDrive\Masaüstü\WebApplicationDemo\EntityLayer\obj\Debug\net5.0\EntityLayer.csproj.AssemblyReference.cache
+D:\GitHub\BlogWebApp\WebApplicationDemo\EntityLayer\bin\Debug\net5.0\EntityLayer.deps.json
+D:\GitHub\BlogWebApp\WebApplicationDemo\EntityLayer\bin\Debug\net5.0\EntityLayer.dll
+D:\GitHub\BlogWebApp\WebApplicationDemo\EntityLayer\bin\Debug\net5.0\ref\EntityLayer.dll
+D:\GitHub\BlogWebApp\WebApplicationDemo\EntityLayer\bin\Debug\net5.0\EntityLayer.pdb
+D:\GitHub\BlogWebApp\WebApplicationDemo\EntityLayer\obj\Debug\net5.0\EntityLayer.GeneratedMSBuildEditorConfig.editorconfig
+D:\GitHub\BlogWebApp\WebApplicationDemo\EntityLayer\obj\Debug\net5.0\EntityLayer.AssemblyInfoInputs.cache
+D:\GitHub\BlogWebApp\WebApplicationDemo\EntityLayer\obj\Debug\net5.0\EntityLayer.AssemblyInfo.cs
+D:\GitHub\BlogWebApp\WebApplicationDemo\EntityLayer\obj\Debug\net5.0\EntityLayer.csproj.CoreCompileInputs.cache
+D:\GitHub\BlogWebApp\WebApplicationDemo\EntityLayer\obj\Debug\net5.0\EntityLayer.dll
+D:\GitHub\BlogWebApp\WebApplicationDemo\EntityLayer\obj\Debug\net5.0\ref\EntityLayer.dll
+D:\GitHub\BlogWebApp\WebApplicationDemo\EntityLayer\obj\Debug\net5.0\EntityLayer.pdb
+D:\GitHub\BlogWebApp\WebApplicationDemo\EntityLayer\obj\Debug\net5.0\EntityLayer.csproj.AssemblyReference.cache

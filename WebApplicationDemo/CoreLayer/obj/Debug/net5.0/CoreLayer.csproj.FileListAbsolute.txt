@@ -9,3 +9,15 @@ C:\Users\Emre\OneDrive\Masaüstü\WebApplicationDemo\CoreLayer\obj\Debug\net5.0\
 C:\Users\Emre\OneDrive\Masaüstü\WebApplicationDemo\CoreLayer\obj\Debug\net5.0\CoreLayer.dll
 C:\Users\Emre\OneDrive\Masaüstü\WebApplicationDemo\CoreLayer\obj\Debug\net5.0\ref\CoreLayer.dll
 C:\Users\Emre\OneDrive\Masaüstü\WebApplicationDemo\CoreLayer\obj\Debug\net5.0\CoreLayer.pdb
+D:\GitHub\BlogWebApp\WebApplicationDemo\CoreLayer\bin\Debug\net5.0\CoreLayer.deps.json
+D:\GitHub\BlogWebApp\WebApplicationDemo\CoreLayer\bin\Debug\net5.0\CoreLayer.dll
+D:\GitHub\BlogWebApp\WebApplicationDemo\CoreLayer\bin\Debug\net5.0\ref\CoreLayer.dll
+D:\GitHub\BlogWebApp\WebApplicationDemo\CoreLayer\bin\Debug\net5.0\CoreLayer.pdb
+D:\GitHub\BlogWebApp\WebApplicationDemo\CoreLayer\obj\Debug\net5.0\CoreLayer.GeneratedMSBuildEditorConfig.editorconfig
+D:\GitHub\BlogWebApp\WebApplicationDemo\CoreLayer\obj\Debug\net5.0\CoreLayer.AssemblyInfoInputs.cache
+D:\GitHub\BlogWebApp\WebApplicationDemo\CoreLayer\obj\Debug\net5.0\CoreLayer.AssemblyInfo.cs
+D:\GitHub\BlogWebApp\WebApplicationDemo\CoreLayer\obj\Debug\net5.0\CoreLayer.csproj.CoreCompileInputs.cache
+D:\GitHub\BlogWebApp\WebApplicationDemo\CoreLayer\obj\Debug\net5.0\CoreLayer.dll
+D:\GitHub\BlogWebApp\WebApplicationDemo\CoreLayer\obj\Debug\net5.0\ref\CoreLayer.dll
+D:\GitHub\BlogWebApp\WebApplicationDemo\CoreLayer\obj\Debug\net5.0\CoreLayer.pdb
+D:\GitHub\BlogWebApp\WebApplicationDemo\CoreLayer\obj\Debug\net5.0\CoreLayer.csproj.AssemblyReference.cache

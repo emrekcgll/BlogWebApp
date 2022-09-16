@@ -5821,11 +5821,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Emre\\OneDrive\\Masaüstü\\WebApplicationDemo\\DataAccesLayer\\DataAccesLayer.csproj",
+      "projectUniqueName": "D:\\GitHub\\BlogWebApp\\WebApplicationDemo\\DataAccesLayer\\DataAccesLayer.csproj",
       "projectName": "DataAccesLayer",
-      "projectPath": "C:\\Users\\Emre\\OneDrive\\Masaüstü\\WebApplicationDemo\\DataAccesLayer\\DataAccesLayer.csproj",
+      "projectPath": "D:\\GitHub\\BlogWebApp\\WebApplicationDemo\\DataAccesLayer\\DataAccesLayer.csproj",
       "packagesPath": "C:\\Users\\Emre\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Emre\\OneDrive\\Masaüstü\\WebApplicationDemo\\DataAccesLayer\\obj\\",
+      "outputPath": "D:\\GitHub\\BlogWebApp\\WebApplicationDemo\\DataAccesLayer\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -5849,8 +5849,8 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "C:\\Users\\Emre\\OneDrive\\Masaüstü\\WebApplicationDemo\\EntityLayer\\EntityLayer.csproj": {
-              "projectPath": "C:\\Users\\Emre\\OneDrive\\Masaüstü\\WebApplicationDemo\\EntityLayer\\EntityLayer.csproj"
+            "D:\\GitHub\\BlogWebApp\\WebApplicationDemo\\EntityLayer\\EntityLayer.csproj": {
+              "projectPath": "D:\\GitHub\\BlogWebApp\\WebApplicationDemo\\EntityLayer\\EntityLayer.csproj"
             }
           }
         }
@@ -5901,7 +5901,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.411\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.412\\RuntimeIdentifierGraph.json"
       }
     }
   }
