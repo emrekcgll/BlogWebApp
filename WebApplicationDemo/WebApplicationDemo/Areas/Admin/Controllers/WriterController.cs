@@ -9,7 +9,6 @@ using WebApplicationDemo.Areas.Admin.Models;
 
 namespace WebApplicationDemo.Areas.Admin.Controllers
 {
-    [AllowAnonymous]
     [Area("Admin")]
     public class WriterController : Controller
     {
@@ -21,6 +20,12 @@ namespace WebApplicationDemo.Areas.Admin.Controllers
         public IActionResult WriterList()
         {
             var jsonWriters = JsonConvert.SerializeObject(writers);
+            return Json(jsonWriters);
+        }
+        public IActionResult GetWriterById(int writerid)
+        {
+            var findWriter = writers.FirstOrDefault(x => x.id == writerid);
+            var jsonWriters = JsonConvert.SerializeObject(findWriter);
             return Json(jsonWriters);
         }
 
