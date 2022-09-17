@@ -29,6 +29,29 @@ namespace WebApplicationDemo.Areas.Admin.Controllers
             return Json(jsonWriters);
         }
 
+        [HttpPost]
+        public IActionResult AddWriter(WriterClass w)
+        {
+            writers.Add(w);
+            var jsonWriters = JsonConvert.SerializeObject(w);
+            return Json(jsonWriters);
+        }
+
+        public IActionResult DeleteWriter(int id)
+        {
+            var writer = writers.FirstOrDefault(x => x.id == id);
+            writers.Remove(writer);
+            return Json(writer);
+        }
+
+        public IActionResult UpdateWriter(WriterClass w)
+        {
+            var writer = writers.FirstOrDefault(x => x.id == w.id);
+            writer.name = w.name;
+            var jsonwriter = JsonConvert.SerializeObject(w);
+            return Json(jsonwriter);
+        }
+
         public static List<WriterClass> writers = new List<WriterClass>
         {
             new WriterClass
