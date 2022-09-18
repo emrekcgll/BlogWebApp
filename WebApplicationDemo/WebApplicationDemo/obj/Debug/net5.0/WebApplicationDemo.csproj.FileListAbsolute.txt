@@ -422,3 +422,15 @@ D:\GitHub\BlogWebApp\WebApplicationDemo\WebApplicationDemo\obj\Debug\net5.0\Razo
 D:\GitHub\BlogWebApp\WebApplicationDemo\WebApplicationDemo\obj\Debug\net5.0\Razor\Areas\Admin\Views\Shared\Components\Statistic4\Default.cshtml.g.cs
 D:\GitHub\BlogWebApp\WebApplicationDemo\WebApplicationDemo\obj\Debug\net5.0\Razor\Areas\Admin\Views\Chart\Index.cshtml.g.cs
 D:\GitHub\BlogWebApp\WebApplicationDemo\WebApplicationDemo\obj\Debug\net5.0\Razor\Areas\Admin\Views\Writer\Index.cshtml.g.cs
+D:\GitHub\BlogWebApp\WebApplicationDemo\WebApplicationDemo\bin\Debug\net5.0\BlogApi.deps.json
+D:\GitHub\BlogWebApp\WebApplicationDemo\WebApplicationDemo\bin\Debug\net5.0\BlogApi.runtimeconfig.json
+D:\GitHub\BlogWebApp\WebApplicationDemo\WebApplicationDemo\bin\Debug\net5.0\BlogApi.runtimeconfig.dev.json
+D:\GitHub\BlogWebApp\WebApplicationDemo\WebApplicationDemo\bin\Debug\net5.0\BlogApi.exe
+D:\GitHub\BlogWebApp\WebApplicationDemo\WebApplicationDemo\bin\Debug\net5.0\Microsoft.OpenApi.dll
+D:\GitHub\BlogWebApp\WebApplicationDemo\WebApplicationDemo\bin\Debug\net5.0\Swashbuckle.AspNetCore.Swagger.dll
+D:\GitHub\BlogWebApp\WebApplicationDemo\WebApplicationDemo\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\GitHub\BlogWebApp\WebApplicationDemo\WebApplicationDemo\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\GitHub\BlogWebApp\WebApplicationDemo\WebApplicationDemo\bin\Debug\net5.0\BlogApi.dll
+D:\GitHub\BlogWebApp\WebApplicationDemo\WebApplicationDemo\bin\Debug\net5.0\BlogApi.pdb
+D:\GitHub\BlogWebApp\WebApplicationDemo\WebApplicationDemo\obj\Debug\net5.0\Razor\Views\EmployeeTest\Index.cshtml.g.cs
+D:\GitHub\BlogWebApp\WebApplicationDemo\WebApplicationDemo\obj\Debug\net5.0\Razor\Views\EmployeeTest\AddEmployee.cshtml.g.cs
