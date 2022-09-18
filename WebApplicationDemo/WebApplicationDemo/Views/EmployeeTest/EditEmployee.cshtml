@@ -1,0 +1,15 @@
+﻿@model WebApplicationDemo.Controllers.Class1
+@{
+    ViewData["Title"] = "EditEmployee";
+    Layout = "~/Views/Shared/AdminLayout.cshtml";
+}
+
+<h1>Api ile Personel Güncelleme Sayfası</h1>
+
+<form method="post">
+    <label>Id</label>
+    @Html.TextBoxFor(x => x.Id, new { @class = "form-control" })
+    <label>Ad</label>
+    @Html.TextBoxFor(x => x.Name, new { @class = "form-control" })
+    <button class="btn btn-primary">Güncelle</button>
+</form>
