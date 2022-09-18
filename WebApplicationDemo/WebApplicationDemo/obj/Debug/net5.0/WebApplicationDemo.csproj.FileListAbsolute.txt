@@ -435,3 +435,9 @@ D:\GitHub\BlogWebApp\WebApplicationDemo\WebApplicationDemo\bin\Debug\net5.0\Blog
 D:\GitHub\BlogWebApp\WebApplicationDemo\WebApplicationDemo\obj\Debug\net5.0\Razor\Views\EmployeeTest\Index.cshtml.g.cs
 D:\GitHub\BlogWebApp\WebApplicationDemo\WebApplicationDemo\obj\Debug\net5.0\Razor\Views\EmployeeTest\AddEmployee.cshtml.g.cs
 D:\GitHub\BlogWebApp\WebApplicationDemo\WebApplicationDemo\obj\Debug\net5.0\Razor\Views\EmployeeTest\EditEmployee.cshtml.g.cs
+D:\GitHub\BlogWebApp\WebApplicationDemo\WebApplicationDemo\bin\Debug\net5.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+D:\GitHub\BlogWebApp\WebApplicationDemo\WebApplicationDemo\bin\Debug\net5.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+D:\GitHub\BlogWebApp\WebApplicationDemo\WebApplicationDemo\bin\Debug\net5.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+D:\GitHub\BlogWebApp\WebApplicationDemo\WebApplicationDemo\bin\Debug\net5.0\Microsoft.Extensions.Identity.Core.dll
+D:\GitHub\BlogWebApp\WebApplicationDemo\WebApplicationDemo\bin\Debug\net5.0\Microsoft.Extensions.Identity.Stores.dll
+D:\GitHub\BlogWebApp\WebApplicationDemo\WebApplicationDemo\obj\Debug\net5.0\Razor\Views\RegisterUser\Index.cshtml.g.cs
