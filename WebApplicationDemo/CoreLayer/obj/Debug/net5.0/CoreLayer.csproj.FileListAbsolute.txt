@@ -20,4 +20,3 @@ D:\GitHub\BlogWebApp\WebApplicationDemo\CoreLayer\obj\Debug\net5.0\CoreLayer.csp
 D:\GitHub\BlogWebApp\WebApplicationDemo\CoreLayer\obj\Debug\net5.0\CoreLayer.dll
 D:\GitHub\BlogWebApp\WebApplicationDemo\CoreLayer\obj\Debug\net5.0\ref\CoreLayer.dll
 D:\GitHub\BlogWebApp\WebApplicationDemo\CoreLayer\obj\Debug\net5.0\CoreLayer.pdb
-D:\GitHub\BlogWebApp\WebApplicationDemo\CoreLayer\obj\Debug\net5.0\CoreLayer.csproj.AssemblyReference.cache

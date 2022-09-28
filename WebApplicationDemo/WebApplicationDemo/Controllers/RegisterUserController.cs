@@ -37,7 +37,6 @@ namespace WebApplicationDemo.Controllers
                     UserName = p.UserName,
                     NameSurname = p.NameSurname
                 };
-
                 var result = await _userManager.CreateAsync(user, p.Password);
 
                 if (result.Succeeded)

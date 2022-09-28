@@ -30,8 +30,9 @@ namespace DataAccesLayer.Concrete
                 .HasForeignKey(z => z.ReceiverId)
                 .OnDelete(DeleteBehavior.ClientSetNull);
 
-            base.OnModelCreating(modelBuilder);//identity ile eklenmesi gereken komut
+            base.OnModelCreating(modelBuilder);
         }
+
         public DbSet<About> Abouts { get; set; }
         public DbSet<Blog> Blogs { get; set; }
         public DbSet<Category> Categories { get; set; }

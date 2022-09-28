@@ -1,6 +1,7 @@
 ﻿using BusinessLayer.Concrete;
 using DataAccesLayer.EntityFramework;
 using EntityLayer.Concrete;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using System;
 using System.Collections.Generic;
@@ -9,14 +10,17 @@ using System.Threading.Tasks;
 
 namespace WebApplicationDemo.Controllers
 {
+    [AllowAnonymous]
     public class NewsletterController : Controller
     {
         NewsletterManager nm = new NewsletterManager(new EfNewsLetterRepository());
+
         [HttpGet]
         public PartialViewResult SubscribeMail()
         {
             return PartialView();
         }
+
         [HttpPost]
         public PartialViewResult SubscribeMail(NewsLatter p)
         {

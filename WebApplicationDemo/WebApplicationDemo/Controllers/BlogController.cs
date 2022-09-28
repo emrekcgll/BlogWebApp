@@ -25,7 +25,7 @@ namespace WebApplicationDemo.Controllers
             var values = bm.GetBlogListWithCategory();
             return View(values);
         }
-
+        [AllowAnonymous]
         public IActionResult BlogReadAll(int id)
         {
             ViewBag.i = id;

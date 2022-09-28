@@ -3,57 +3,53 @@ using EntityLayer.Concrete;
 using Microsoft.AspNetCore.Authentication;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Security.Claims;
 using System.Threading.Tasks;
+using WebApplicationDemo.Models;
 
 namespace WebApplicationDemo.Controllers
 {
+    [AllowAnonymous]
     public class LoginController : Controller
     {
-        [AllowAnonymous] //Proje seviyesindeki tüm kurallardan muaf. Yazılan tüm kısıtlamalar kalkar.
+        private readonly SignInManager<AppUser> _signInManager;             //sisteme otantike olmak için 
+        public LoginController(SignInManager<AppUser> signInManager)
+        {
+            _signInManager = signInManager;
+        }
+
         public IActionResult Index()
         {
             return View();
         }
 
         [HttpPost]
-        [AllowAnonymous]
-        public async Task<IActionResult> IndexAsync(Writer p)
+        public async Task<IActionResult> Index(UserSignInViewModel p)
         {
-            Context c = new Context();
-            var datavalues = c.Writers.FirstOrDefault(x => x.WriterMail == p.WriterMail && x.WriterPassword == p.WriterPassword);
-            if (datavalues!=null)
-            {
-                var claims = new List<Claim>
-                {
-                    new Claim (ClaimTypes.Name,p.WriterMail)
-                };
-                var useridentity = new ClaimsIdentity(claims,"a");
-                ClaimsPrincipal principal = new ClaimsPrincipal(useridentity);
-                await HttpContext.SignInAsync(principal);
 
-                return RedirectToAction("Index","Dashboard");
-            }
-            else
+            if (ModelState.IsValid)
             {
-                return View();
+                var result = await _signInManager.PasswordSignInAsync(p.username, p.password, false, true);
+                if (result.Succeeded)
+                {
+                    return RedirectToAction("Index", "Dashboard");
+                }
+                else
+                {
+                    return RedirectToAction("Index", "Login");
+                }
             }
+            return View();
+            //kullanıcı adı, şifre, çerezlerin
+            //kullanıcı adı ve şifeyi hatırlaması,
+            //fazla sayıda yanlış kullanıcı adı ve
+            //şifre kullandığında hesabın kitlenmesi
         }
     }
 }
 
-//Context c = new Context();
-//var datavalue = c.Writers.FirstOrDefault(x => x.WriterMail == p.WriterMail && x.WriterPassword == p.WriterPassword);
-//if (datavalue != null)
-//{
-//    HttpContext.Session.SetString("username", p.WriterMail);
-//    return RedirectToAction("Index", "Writer");
-//}
-//else
-//{
-//    return View();
-//}

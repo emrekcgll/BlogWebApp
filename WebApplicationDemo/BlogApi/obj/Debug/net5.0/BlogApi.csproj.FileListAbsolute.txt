@@ -58,4 +58,3 @@ D:\GitHub\BlogWebApp\WebApplicationDemo\BlogApi\obj\Debug\net5.0\BlogApi.dll
 D:\GitHub\BlogWebApp\WebApplicationDemo\BlogApi\obj\Debug\net5.0\ref\BlogApi.dll
 D:\GitHub\BlogWebApp\WebApplicationDemo\BlogApi\obj\Debug\net5.0\BlogApi.pdb
 D:\GitHub\BlogWebApp\WebApplicationDemo\BlogApi\obj\Debug\net5.0\BlogApi.genruntimeconfig.cache
-D:\GitHub\BlogWebApp\WebApplicationDemo\BlogApi\obj\Debug\net5.0\BlogApi.csproj.AssemblyReference.cache

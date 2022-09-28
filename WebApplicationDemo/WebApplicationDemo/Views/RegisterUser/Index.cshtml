@@ -1,4 +1,5 @@
 ﻿@model UserSignUpViewModel
+
 @{
     Layout = null;
 }
@@ -34,20 +35,27 @@
             <p>Yeni bir hesap oluşturun.</p>
             <form class="m-t" role="form" asp-action="Index">
                 <div class="form-group">
-                    <input type="text" class="form-control" asp-for="@Model.NameSurname" placeholder="Ad Soyad" required="">
+                    <span asp-validation-for="NameSurname" class="text-danger"></span>
+                    <input type="text" class="form-control" asp-for="@Model.NameSurname" placeholder="Ad Soyad">
                 </div>
                 <div class="form-group">
-                    <input type="email" class="form-control" placeholder="Email" asp-for="@Model.Mail" required="">
+                    <span asp-validation-for="Mail" class="text-danger"></span>
+                    <input type="email" class="form-control" placeholder="Email" asp-for="@Model.Mail">
                 </div>
                 <div class="form-group">
-                    <input type="text" class="form-control" asp-for="@Model.UserName" placeholder="Kullanıcı Adı" required="">
+                    <span asp-validation-for="UserName" class="text-danger"></span>
+                    <input type="text" class="form-control" asp-for="@Model.UserName" placeholder="Kullanıcı Adı">
                 </div>
                 <div class="form-group">
-                    <input type="password" class="form-control" placeholder="Şifre" asp-for="@Model.Password" required="">
+                    <span asp-validation-for="Password" class="text-danger"></span>
+                    <input type="password" class="form-control" placeholder="Şifre" asp-for="@Model.Password">
                 </div>
                 <div class="form-group">
-                    <input type="password" class="form-control" placeholder="Tekrar Şifre" asp-for="@Model.ConfirmPassword" required="">
+                    <span asp-validation-for="ConfirmPassword" class="text-danger"></span>
+                    <input type="password" class="form-control" placeholder="Tekrar Şifre" asp-for="@Model.ConfirmPassword">
                 </div>
+                <div class="text-danger" asp-validation-summary="ModelOnly"></div>
+
                 <div class="form-group">
                     <div class="checkbox i-checks"><label> <input type="checkbox"><i></i>Kullanıcı şartlarını okudum. Kabul ediyorum.</label></div>
                 </div>
@@ -66,7 +74,7 @@
     <!-- iCheck -->
     <script src="~/AdminPanel/inspinia-gh-pages/js/plugins/iCheck/icheck.min.js"></script>
     <script>
-    $(document).ready(function () {
+        $(document).ready(function () {
             $('.i-checks').iCheck({
                 checkboxClass: 'icheckbox_square-green',
                 radioClass: 'iradio_square-green',

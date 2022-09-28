@@ -1,10 +1,11 @@
-using BlogApi.DataAccesLayer;
+using DataAccesLayer.Concrete;
 using EntityLayer.Concrete;
 using Microsoft.AspNetCore.Authentication.Cookies;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc.Authorization;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
@@ -29,7 +30,15 @@ namespace WebApplicationDemo
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddDbContext<Context>();
-            services.AddIdentity<AppUser, AppRole>().AddEntityFrameworkStores<Context>();
+            services.AddIdentity<AppUser, AppRole>(x =>
+             {
+                 x.Password.RequireUppercase = false;
+                 x.Password.RequireNonAlphanumeric = false;    //þifre için validasyonlar
+             }).AddEntityFrameworkStores<Context>();
+
+
+
+
             services.AddControllersWithViews();
 
 
@@ -65,6 +74,7 @@ namespace WebApplicationDemo
 
             // app.UseStatusCodePages(); //durum kodlarý sayfasýný kullan metodu
             app.UseStatusCodePagesWithReExecute("/ErrorPage/Error1", "?code={0}");
+
             app.UseSession();
 
             app.UseAuthentication();
