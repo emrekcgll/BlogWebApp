@@ -3,7 +3,7 @@
     <p>Yeni blog yazılarını mail olarak alın. </p>
     <form method="post">
         <input type="email" name="Mail" id="txtmail" />
-        <input type="submit" id="btn" value="Abone Ol" />
+        <input type="submit" id="btn" value="Abone Ol" placeholder="Email" onclick="alert('Mail bültenine abone oldunuz.')" />
     </form>
 </div>
 
@@ -21,7 +21,6 @@
             data: values,
             success: function (func) {
                 let result = jQuery.parseJSON(func);
-                alert("Mail bültenine abone oldunuz!");
             }
         });
     });

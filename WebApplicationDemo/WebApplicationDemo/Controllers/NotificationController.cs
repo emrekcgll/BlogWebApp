@@ -16,7 +16,6 @@ namespace WebApplicationDemo.Controllers
         {
             return View();
         }
-        [AllowAnonymous]
         public IActionResult AllNotification()
         {
             var values = nm.GetList();

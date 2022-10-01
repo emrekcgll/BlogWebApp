@@ -12,7 +12,22 @@ namespace AspNetCore
     using Microsoft.AspNetCore.Mvc;
     using Microsoft.AspNetCore.Mvc.Rendering;
     using Microsoft.AspNetCore.Mvc.ViewFeatures;
+#nullable restore
+#line 1 "D:\GitHub\BlogWebApp\WebApplicationDemo\WebApplicationDemo\Areas\Admin\Views\_ViewImports.cshtml"
+using WebApplicationDemo.Areas.Admin;
+
+#line default
+#line hidden
+#nullable disable
+#nullable restore
+#line 2 "D:\GitHub\BlogWebApp\WebApplicationDemo\WebApplicationDemo\Areas\Admin\Views\_ViewImports.cshtml"
+using WebApplicationDemo.Areas.Admin.Models;
+
+#line default
+#line hidden
+#nullable disable
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"465ed40fa41eac6996dd33de9f8709dbd6ab4b89", @"/Areas/Admin/Views/Blog/BlogTitleListExcel.cshtml")]
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"1ac3796c745f3ba87163f56067f82771546c62ba", @"/Areas/Admin/Views/_ViewImports.cshtml")]
     public class Areas_Admin_Views_Blog_BlogTitleListExcel : global::Microsoft.AspNetCore.Mvc.Razor.RazorPage<dynamic>
     {
         #pragma warning disable 1998

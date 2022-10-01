@@ -35,8 +35,10 @@ namespace WebApplicationDemo.Controllers
 
         public IActionResult BlogListByWriter()//Yazar bloglar sayfası
         {
-            var usermail = User.Identity.Name;
+            var username = User.Identity.Name;
+            var usermail = c.Users.Where(x => x.UserName == username).Select(y => y.Email).FirstOrDefault();
             var writerId = c.Writers.Where(x => x.WriterMail == usermail).Select(y => y.WriterId).FirstOrDefault();
+            ViewBag.v = writerId;
             var values = bm.GetListWithCategoryByWriterBM(writerId);
             return View(values);
         }
@@ -54,11 +56,14 @@ namespace WebApplicationDemo.Controllers
             ViewBag.li = listItems;
             return View();
         }
+
         [HttpPost]
         public IActionResult BlogAdd(Blog p)
         {
-            var usermail = User.Identity.Name;
+            var username = User.Identity.Name;
+            var usermail = c.Users.Where(x => x.UserName == username).Select(y => y.Email).FirstOrDefault();
             var writerId = c.Writers.Where(x => x.WriterMail == usermail).Select(y => y.WriterId).FirstOrDefault();
+
             BlogValidator bv = new BlogValidator();
             ValidationResult result = bv.Validate(p);
             if (result.IsValid)
@@ -79,6 +84,7 @@ namespace WebApplicationDemo.Controllers
             }
             return View();
         }
+
         public IActionResult BlogDelete(int id)
         {
             var blogvalue = bm.GetById(id);
@@ -99,11 +105,14 @@ namespace WebApplicationDemo.Controllers
             ViewBag.li = listItems;
             return View(blogvalue);
         }
+
         [HttpPost]
         public IActionResult EditBlog(Blog p)
         {
-            var usermail = User.Identity.Name;
+            var username = User.Identity.Name;
+            var usermail = c.Users.Where(x => x.UserName == username).Select(y => y.Email).FirstOrDefault();
             var writerId = c.Writers.Where(x => x.WriterMail == usermail).Select(y => y.WriterId).FirstOrDefault();
+
             p.WriterId = writerId;
             p.BlogCreateDate = DateTime.Parse(DateTime.Now.ToShortDateString());
             p.BlogStatus = true;

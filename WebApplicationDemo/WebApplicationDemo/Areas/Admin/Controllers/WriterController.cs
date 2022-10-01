@@ -10,6 +10,7 @@ using WebApplicationDemo.Areas.Admin.Models;
 namespace WebApplicationDemo.Areas.Admin.Controllers
 {
     [Area("Admin")]
+    [Authorize(Roles = "Admin")]
     public class WriterController : Controller
     {
         public IActionResult Index()

@@ -50,6 +50,11 @@ namespace WebApplicationDemo.Controllers
             //fazla sayıda yanlış kullanıcı adı ve
             //şifre kullandığında hesabın kitlenmesi
         }
+        public async Task<IActionResult> LogOut()
+        {
+            await _signInManager.SignOutAsync();
+            return RedirectToAction("Index", "Login");
+        }
     }
 }
 

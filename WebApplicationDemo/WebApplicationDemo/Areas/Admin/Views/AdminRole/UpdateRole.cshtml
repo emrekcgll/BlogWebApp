@@ -1,0 +1,21 @@
+﻿@using WebApplicationDemo.Areas.Admin.Models
+@model RoleUpdateViewModel
+
+@{
+    ViewData["Title"] = "UpdateRole";
+    Layout = "~/Views/Shared/AdminLayout.cshtml";
+}
+
+<h1>Güncelle</h1>
+
+<form method="post">
+    <div class="form-group">
+        <h4>Role Id @Model.id</h4>
+        @*<input type="text" name="id" class="form-control" value="@Model.id" />*@
+    </div>
+    <div class="form-group">
+        <label>Role Adı</label>
+        <input type="text" name="name" class="form-control" value="@Model.name" />
+    </div>
+    <button class="btn btn-primary">Güncelle</button>
+</form>

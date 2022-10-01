@@ -21,4 +21,3 @@ D:\GitHub\BlogWebApp\WebApplicationDemo\EntityLayer\obj\Debug\net5.0\EntityLayer
 D:\GitHub\BlogWebApp\WebApplicationDemo\EntityLayer\obj\Debug\net5.0\EntityLayer.dll
 D:\GitHub\BlogWebApp\WebApplicationDemo\EntityLayer\obj\Debug\net5.0\ref\EntityLayer.dll
 D:\GitHub\BlogWebApp\WebApplicationDemo\EntityLayer\obj\Debug\net5.0\EntityLayer.pdb
-D:\GitHub\BlogWebApp\WebApplicationDemo\EntityLayer\obj\Debug\net5.0\EntityLayer.csproj.AssemblyReference.cache

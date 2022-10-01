@@ -4,6 +4,7 @@ using Microsoft.AspNetCore.Authentication.Cookies;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.HttpsPolicy;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc.Authorization;
@@ -54,8 +55,21 @@ namespace WebApplicationDemo
             services.AddMvc();
             services.AddAuthentication(CookieAuthenticationDefaults.AuthenticationScheme).AddCookie(x =>
             {
-                x.LoginPath = "/Login/Index";   //return url
+                x.LoginPath = "/Login/Index/";   //return url
             });
+
+            services.ConfigureApplicationCookie(options =>
+            {
+                options.Cookie.HttpOnly = true;
+                options.ExpireTimeSpan = TimeSpan.FromMinutes(120);
+
+                options.LoginPath = "/Login/Index/";
+                options.SlidingExpiration = true;
+
+                options.AccessDeniedPath = new PathString("/ErrorPage/AccessDenied");
+            });
+
+
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
